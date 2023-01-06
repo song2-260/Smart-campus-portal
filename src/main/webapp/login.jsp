@@ -19,7 +19,7 @@
 
 <body style="background: url(images/bg1.png)">
 <div class="logo">
-    <a href="https://www.cqupt.edu.cn"><img src="images/logo.png" alt=""></a>
+    <a><img src="images/logo.png" alt=""></a>
 </div>
 <div class="wrap">
     <p class="head">
