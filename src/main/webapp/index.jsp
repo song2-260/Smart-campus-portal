@@ -395,7 +395,7 @@
 
                         <li class="pull-left">
                             <a href="<%=url2%>">
-                            <img src="images/app11.gif">
+                            <img src="images/管理.gif">
                             <span style="font-size:22px">异动管理</span>
                         </li>
                     </ul>
