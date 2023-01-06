@@ -21,9 +21,6 @@
 <div class="logo">
     <a href="https://www.cqupt.edu.cn"><img src="images/logo.png" alt=""></a>
 </div>
-<div class="motto">
-    <a href="https://www.cqupt.edu.cn"><img src="images/motto.jpg" alt=""></a>
-</div>
 <div class="wrap">
     <p class="head">
         <span style="color: #1493FF">智慧校园门户</span>
