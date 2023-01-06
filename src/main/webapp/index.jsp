@@ -274,7 +274,7 @@
                     <ul class="clearfix">
                         <li class="pull-left">
                             <a href="login.jsp">
-                                <img src="images/app4.gif">
+                                <img src="images/用户.gif">
                                 <span style="font-size:22px">用户登录</span>
                             </a>
 
@@ -284,7 +284,7 @@
 
                         <li class="pull-left">
                             <a href="<%=url%>">
-                                <img src="images/app8.gif">
+                                <img src="images/个人信息.gif">
                                 <span style="font-size:22px">个人信息</span>
                             </a>
 
@@ -294,7 +294,7 @@
 
                         <li class="pull-left">
                             <a href="<%=url%>">
-                                <img src="images/app3.gif">
+                                <img src="images/成绩.gif">
                                 <span style="font-size:22px">成绩查询</span>
                             </a>
 
@@ -304,7 +304,7 @@
 
                         <li class="pull-left">
                             <a href="<%=url%>">
-                                <img src="images/app1.gif">
+                                <img src="images/考勤.gif">
                                 <span style="font-size:22px">考勤查询</span>
                             </a>
                         </li>
@@ -313,7 +313,7 @@
 
                         <li class="pull-left">
                             <a href="http://www.aao.cdut.edu.cn/xlzx/jxrl.htm">
-                                <img src="images/app15.gif">
+                                <img src="images/日历.gif">
                                 <span style="font-size:22px">校历查询</span>
                             </a>
 
@@ -344,13 +344,18 @@
 
                         <li class="pull-left">
                             <a href="<%=url2%>">
-                                <img src="images/app9.gif">
+                                <img src="images/课程.gif">
                                 <span style="font-size:22px">课程管理</span>
                             </a>
 
                         </li>
 
-
+                        <li class="pull-left">
+                            <a href="<%=url2%>">
+                                <img src="images/app5.gif">
+                                <span style="font-size:22px">班级管理</span>
+                            </a>
+                        </li>
 
                         <li class="pull-left">
 
@@ -359,16 +364,7 @@
                                 <span style="font-size:22px">考勤管理</span>
                             </a>
                         </li>
-
-
-
-                        <li class="pull-left">
-
-                            <a href="<%=url2%>">
-                                <img src="images/app5.gif">
-                                <span style="font-size:22px">班级管理</span>
-                            </a>
-                        </li>
+               
                     </ul>
                 </div>
             </div>
@@ -389,7 +385,7 @@
 
                         <li class="pull-left">
                             <a href="<%=url%>">
-                                <img src="images/app10.gif">
+                                <img src="images/学籍.gif">
                                 <span style="font-size:22px">学籍信息查询</span>
                             </a>
 
@@ -419,27 +415,16 @@
                 <div class="boxContent pull-left">
                     <ul class="clearfix">
 
-
-                        <li class="pull-left">
-                            <a href="admission.jsp">
-                                <img src="images/app12.gif">
-                                <span style="font-size:22px">专业分数信息</span>
-                            </a>
-
-                        </li>
-
-
-
                         <li class="pull-left">
                             <a href="magazine.jsp">
-                                <img src="images/app16.gif">
+                                <img src="images/周刊.gif">
                                 <span style="font-size:22px">周刊专栏</span>
                             </a>
 
                         </li>
                         <li class="pull-left">
                             <a href="https://www.720yun.com/t/69722wOdata?scene_id=302686">
-                                <img src="images/app7.gif">
+                                <img src="images/学校.gif">
                                 <span style="font-size:22px">VR校园</span>
                             </a>
 
