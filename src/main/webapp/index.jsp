@@ -30,11 +30,11 @@
                     String Id=(String)session.getAttribute("Id");
                     String url=null;
                     String url2=null;
-                    if(Pattern.matches("^s.*",Id)){
+                    f(Id.startsWith("s")){
                         url="PCenter.jsp";
                         url2="#";
                     }
-                    if(Pattern.matches("^t.*",Id)){
+                    if(Id.startsWith("t")){
                         url="PCenter2.jsp";
                         url2="PCenter2.jsp";
                     }
