@@ -38,10 +38,6 @@
                         url="PCenter2.jsp";
                         url2="PCenter2.jsp";
                     }
-                    if("admin".equals(Id)){
-                        url="PCenter3.jsp";
-                        url2="PCenter3.jsp";
-                    }
                 %>
                     <a href="<%=url%>">个人中心</a>
             </span>
