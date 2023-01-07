@@ -23,7 +23,7 @@
         </div>
 
         <div class="fr topLink">
-            <a href="www.cqupt.edu.cn" target="_blank">官网</a>
+            <a href="http://www.cdut.edu.cn/" target="_blank">官网</a>
             <span class="peosonnalcenter">
                     |
                 <%
