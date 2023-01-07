@@ -412,9 +412,9 @@
                     <ul class="clearfix">
 
                         <li class="pull-left">
-                            <a href="magazine.jsp">
+                            <a href="http://www.cdut.edu.cn/kxyj/xsqk.htm">
                                 <img src="images/周刊.gif">
-                                <span style="font-size:22px">周刊专栏</span>
+                                <span style="font-size:22px">学术期刊</span>
                             </a>
 
                         </li>
