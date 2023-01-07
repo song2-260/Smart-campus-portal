@@ -66,7 +66,6 @@
                 <li><a href="#">考勤管理</a></li>
                 <li><a href="#">成绩管理</a></li>
                 <li><a href="#">班级管理</a></li>
-                <li><a href="#">学籍管理</a></li>
             </ul>
         </div>
     </div>
@@ -650,7 +649,7 @@
     $(function(){
         $(".kaoqin button").click(function (){
             var k=$("#search_index").val();
-            $.get("/SearchAtt?k="+k,function (data) {
+            $.get("/Group10/SearchAtt?k="+k,function (data) {
             var obj=JSON.parse(data);
             console.log(obj);
             var spans=$(".kqdata");
@@ -663,7 +662,7 @@
     $(function(){
         $(".searchstatus button").click(function (){
             var StuId=$("#status").val();
-            $.get("/SearchSta?StuId="+StuId,function (data) {
+            $.get("/Group10/SearchSta?StuId="+StuId,function (data) {
                 var obj1=JSON.parse(data);
                 console.log(obj1);
                 var SD=$(".stadata");
@@ -679,7 +678,7 @@
     $(function(){
         $(".classinfo button").click(function (){
             var CI=$("#classid").val();
-            $.get("/SearchClass?CI="+CI,function (data) {
+            $.get("/Group10/SearchClass?CI="+CI,function (data) {
                 //console.log(data);
                 var obj2=JSON.parse(data);
                 var SC=$(".cidata");
@@ -700,7 +699,7 @@
     $(function(){
         $(".insertScore button").click(function (){
             var IS=$("#score").val();
-            $.get("/SearchScore?IS="+IS,function (data) {
+            $.get("/Group10/SearchScore?IS="+IS,function (data) {
                 console.log(data);
                 var obj3=JSON.parse(data);
                 var SC=$(".sgdata");
@@ -735,6 +734,29 @@
 
             })
         });
+    });
+    $(".kaoqin .checkkaoqin").click(function (){
+        var ci=$("#search_index").val();
+        $.get("/Group10/AttInfo?ci="+ci,function (data2) {
+            var obj=JSON.parse(data2);
+            console.log(obj);
+            var rowdata="";
+            $(".datarow2").remove();
+            for(i=0;i<obj.length;i++){
+                rowdata='<tr class="datarow2">';
+                rowdata=rowdata+"<th>"+obj[i][0]+"</th>";
+                rowdata=rowdata+"<th>"+obj[i][1]+"</th>";
+                if(obj[i][2]==null&&obj[i][3]==null){
+                    rowdata=rowdata+"<th>"+"</th>";
+                    rowdata=rowdata+"<th>"+"</th>";
+                }else {
+                    rowdata = rowdata + "<th>" + obj[i][2] + "</th>";
+                    rowdata = rowdata + "<th>" + obj[i][3] + "</th>";
+                }
+                rowdata=rowdata+"</tr>";
+                $("#attinfo").append(rowdata);
+            }
+        })
     });
     $(".checkkaoqin").click(function () {
         $(".contes").show();
