@@ -41,12 +41,6 @@
         <div class="logo">
             <a href="index.jsp"><img src="images/logo.png" alt=""></a>
         </div>
-        <div class="search">
-            <div class="searchk">
-                <input type="text" placeholder="请输入关键词进行搜索..." id="search_index">
-                <a href="SearchServlet" class="search_btn"></a>
-            </div>
-        </div>
     </div>
 </div>
 
