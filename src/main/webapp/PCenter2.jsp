@@ -69,11 +69,6 @@
             <ul>
                 <li><a href="#">我的信息</a></li>
                 <li><a href="#">课程管理</a></li>
-                <li><a href="#">考勤管理</a></li>
-                <li><a href="#">成绩管理</a></li>
-                <li><a href="#">班级管理</a></li>
-                <li><a href="#">学籍管理</a></li>
-                <li><a href="#">更多</a></li>
             </ul>
         </div>
     </div>
