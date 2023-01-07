@@ -48,7 +48,7 @@
 <div class="header">
     <div class="w2">
         <a href="index.jsp">
-            <div class="logo"><img src="images/logo.png" width="1200" height="120" alt=""></div>
+            <div class="logo"><img src="images/logo_red.png" width="1200" height="120" alt=""></div>
         </a>
          
     </div>
