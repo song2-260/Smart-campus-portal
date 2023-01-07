@@ -1,12 +1,6 @@
 <%@ page import="com.domain.CourseChangeInfo" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.dao.ManDao" %><%--
-  Created by IntelliJ IDEA.
-  User: 白衣渡江丶吕蒙
-  Date: 2021/8/27
-  Time: 11:04
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="com.dao.ManDao" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="en">
 
@@ -470,7 +464,7 @@
         $(".dd ul li").click(function () {
             var index = $(this).index();
             $(".info>div").eq(index).show().siblings().hide();
-            $(this).css("backgroundColor", "#c81623").siblings().css("backgroundColor", "#157b70");
+            $(this).css("backgroundColor", "#c81623").siblings().css("backgroundColor", "#2eaecb");
         })
     })
 
