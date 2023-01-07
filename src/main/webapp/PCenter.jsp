@@ -5,13 +5,6 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="com.domain.StuGrade" %>
 <%@ page import="com.domain.StuAttendance" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: 白衣渡江丶吕蒙
-  Date: 2021/8/11
-  Time: 15:19
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="en">
 
@@ -632,7 +625,7 @@
         $(".dd ul li").click(function () {
             var index = $(this).index();
             $(".info>div").eq(index).show().siblings().hide();
-            $(this).css("backgroundColor", "#c81623").siblings().css("backgroundColor", "#157b70");
+            $(this).css("backgroundColor", "#c81623").siblings().css("backgroundColor", "#2eaecb");
 
         })
     })
